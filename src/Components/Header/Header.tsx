@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./Header.style.css";
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
+import { Link } from "react-router-dom";
 
 function Header() {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
@@ -12,23 +13,20 @@ function Header() {
   return (
     <nav className="navbar">
       <a href="/" className="nav__brand">
-        <TheaterComedyIcon style={{ fontSize:"45px" }} />
+        <TheaterComedyIcon style={{ fontSize: "45px" }} />
       </a>
       <ul className={`nav__menu ${isNavExpanded ? "nav__active" : ""}`}>
         <li className="nav__item">
-          <a href="#about" className="nav__link">
+          {/* <a href="#about" className="nav__link">
             About
-          </a>
+          </a> */}
+          <Link className="nav__link" to='/'>Home</Link>
         </li>
         <li className="nav__item">
-          <a href="#gallery" className="nav__link">
-            Gallery
-          </a>
+          <Link className="nav__link" to='/Gallery'>Gallery</Link>
         </li>
         <li className="nav__item last__item">
-          <a href="#contact" className="nav__link">
-            Contact
-          </a>
+          <Link className="nav__link" to='/contact'>Contact</Link>
         </li>
       </ul>
       <div onClick={navToggle} className={`nav__toggler ${isNavExpanded ? "toggle" : ""}`}>

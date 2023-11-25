@@ -1,16 +1,18 @@
-import Header from './Components/Header/Header'
 import './App.css'
-import Gallery from './Components/Gallery/Gallery'
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import GalleryPage from './Pages/GalleryPage/GalleryPage'
+import ContactPage from './Pages/ContactPage/ContactPage'
+import HomePage from './Pages/HomePage/HomePage'
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <div className="container">
-        <h1>Sami Safatli</h1>
-        {/* <Gallery/> */}
-      </div> 
-    </div>
+  <Router>
+    <Routes>
+      <Route path='/' element={<HomePage/>}></Route>
+      <Route path='/Gallery' element={<GalleryPage/>}></Route>
+      <Route path='/Contact' element={<ContactPage/>}></Route>
+    </Routes>
+  </Router>
   )
 }
 
