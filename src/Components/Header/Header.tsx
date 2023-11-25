@@ -17,16 +17,13 @@ function Header() {
       </a>
       <ul className={`nav__menu ${isNavExpanded ? "nav__active" : ""}`}>
         <li className="nav__item">
-          {/* <a href="#about" className="nav__link">
-            About
-          </a> */}
-          <Link className="nav__link" to='/'>Home</Link>
+          <Link onClick={navToggle} className="nav__link" to='/'>Home</Link>
         </li>
         <li className="nav__item">
-          <Link className="nav__link" to='/Gallery'>Gallery</Link>
+          <Link onClick={navToggle} className="nav__link" to='/Gallery'>Gallery</Link>
         </li>
         <li className="nav__item last__item">
-          <Link className="nav__link" to='/contact'>Contact</Link>
+          <Link onClick={navToggle} className="nav__link" to='/contact'>Contact</Link>
         </li>
       </ul>
       <div onClick={navToggle} className={`nav__toggler ${isNavExpanded ? "toggle" : ""}`}>
