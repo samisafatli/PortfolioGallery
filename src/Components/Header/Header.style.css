@@ -1,0 +1,116 @@
+/* Reset CSS for consistent styles across browsers */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Set a consistent base font size */
+html {
+  font-size: 62.5%; /* 1rem = 10px */
+}
+
+/* Define the base font family and size for the entire website */
+body {
+  font-size: 1.6rem; /* 16px */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+/* Header container styles */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+  background: rgb(0, 33, 65);
+  position: relative;
+}
+
+/* Brand/logo link styles */
+.nav__brand {
+  color: white;
+  text-decoration: none;
+  font-size: 2rem;
+}
+
+/* Navigation menu styles */
+.nav__menu {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+/* Individual navigation item link styles */
+.nav__item a {
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  font-size: 1.6rem;
+  transition: color 0.3s ease;
+}
+
+/* Navigation item link hover styles */
+.nav__item a:hover {
+  color: white;
+}
+
+/* Hamburger menu toggle button styles */
+.nav__toggler {
+  display: none;
+  cursor: pointer;
+}
+
+/* Hamburger menu lines styles */
+.nav__toggler.toggle .line {
+  transition: transform 0.3s ease-in-out;
+}
+
+.nav__toggler .line {
+  width: 3rem;
+  height: 0.2rem;
+  background: white;
+  margin: 0.5rem 3rem;
+}
+
+/* Media query for smaller screens (e.g., max-width: 768px) */
+@media screen and (max-width: 768px) {
+  /* Display the hamburger menu button */
+  .nav__toggler {
+    display: block;
+  }
+
+  /* Position and style the mobile navigation menu */
+  .nav__menu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    width: 100%;
+    background: rgb(0, 33, 65);
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.3s ease-in-out;
+  }
+
+  /* Show the mobile navigation menu when active */
+  .nav__menu.nav__active {
+    display: flex;
+  }
+
+  /* Transform the hamburger menu lines for the "X" shape when active */
+  .nav__toggler.toggle .line1 {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .nav__toggler.toggle .line2 {
+    opacity: 0;
+  }
+
+  .nav__toggler.toggle .line3 {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+  .nav__item.last__item {
+    margin-bottom: 20px;
+  }
+}

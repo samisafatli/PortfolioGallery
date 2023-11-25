@@ -1,0 +1,60 @@
+{
+    "pictures": [
+        {
+            "image": "photos/IMG_1.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_2.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_3.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_4.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_5.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_6.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_7.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_8.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_9.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_10.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_11.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_12.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_13.JPG",
+            "id": "John Smith"
+        },
+        {
+            "image": "photos/IMG_14.JPG",
+            "id": "John Smith"
+        }
+    ]
+}
