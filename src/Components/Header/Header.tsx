@@ -3,7 +3,7 @@ import "./Header.style.css";
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import { Link } from "react-router-dom";
 
-function Header() {
+export const Header = () => {
   const [isNavExpanded, setIsNavExpanded] = useState(false);
 
   const navToggle = () => {
@@ -34,5 +34,3 @@ function Header() {
     </nav>
   );
 }
-
-export default Header;

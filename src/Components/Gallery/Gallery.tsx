@@ -4,7 +4,7 @@ import ImageGallery from "react-image-gallery";
 
 import data from './GalleryData.json';
 
-function Gallery() {
+export const Gallery = () => {
     return (
         <div>
             <ImageGallery
@@ -15,5 +15,3 @@ function Gallery() {
         </div>
     );
 }
-
-export default Gallery;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './ContactPage.css'
 
-function ContactPage() {
+export const ContactPage = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -72,5 +72,3 @@ function ContactPage() {
     </div>
   )
 }
-
-export default ContactPage

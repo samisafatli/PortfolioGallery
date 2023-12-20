@@ -1,5 +1,6 @@
 import './HomePage.css'
-function HomePage() {
+
+export const HomePage = () => {
   return (
     <div className="home_page_container">
       <div className="container">
@@ -8,12 +9,14 @@ function HomePage() {
         </div>
         <div className="textSection">
           <h1>Sami Saftli</h1>
+          <br/><br/>          
           <p>Olá! Sou ator apaixonado pelos estudos das artes cênicas.</p>
-          <p>Sou formado no CCPAC, escola profissionalizante, além de ter feito cursos livres de Máscara</p>
+          <br/>
+          <p>Sou formado no CCPAC, escola profissionalizante, além de ter feito cursos livres de Máscara, movimentação e improvisação e interpretação.</p>
+          <br/>
+          <p>Seja bem vindo à minha página, espero que eu seja o perfil que você precisa!</p>
         </div>
       </div>
     </div>
   )
 }
-
-export default HomePage

@@ -1,9 +1,9 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
-import GalleryPage from './Pages/GalleryPage/GalleryPage'
-import ContactPage from './Pages/ContactPage/ContactPage'
-import HomePage from './Pages/HomePage/HomePage'
-import Header from './Components/Header/Header'
-import Footer from './Components/Footer/Footer'
+import {GalleryPage} from './Pages/GalleryPage/GalleryPage'
+import {ContactPage} from './Pages/ContactPage/ContactPage'
+import {HomePage} from './Pages/HomePage/HomePage'
+import {Header} from './Components/Header/Header'
+import {Footer} from './Components/Footer/Footer'
 
 function App() {
   return (
