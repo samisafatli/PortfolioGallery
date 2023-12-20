@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import "./Header.style.css";
 import TheaterComedyIcon from '@mui/icons-material/TheaterComedy';
 import { Link } from "react-router-dom";
@@ -12,9 +12,9 @@ function Header() {
 
   return (
     <nav className="navbar">
-      <a href="/" className="nav__brand">
-        <TheaterComedyIcon style={{ fontSize: "45px" }} />
-      </a>
+      <Link className="nav__link" to='/'>
+        <TheaterComedyIcon style={{ color: "white", fontSize: "45px" }} />
+      </Link>
       <ul className={`nav__menu ${isNavExpanded ? "nav__active" : ""}`}>
         <li className="nav__item">
           <Link onClick={navToggle} className="nav__link" to='/'>Home</Link>

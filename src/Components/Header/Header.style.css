@@ -82,6 +82,8 @@ body {
 
   .nav__menu.nav__active {
     display: flex;
+    position: absolute;
+    z-index: 999;
   }
 
   .nav__toggler.toggle .line1 {
