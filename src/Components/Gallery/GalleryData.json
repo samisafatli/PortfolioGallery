@@ -1,60 +1,60 @@
 {
     "pictures": [
         {
-            "image": "photos/IMG_1.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_1.JPG",
+            "thumbnail": "photos/resized_images/IMG_1.jpg"
         },
         {
-            "image": "photos/IMG_2.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_2.JPG",
+            "thumbnail": "photos/resized_images/IMG_2.jpg"
         },
         {
-            "image": "photos/IMG_3.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_3.JPG",
+            "thumbnail": "photos/resized_images/IMG_3.jpg"
         },
         {
-            "image": "photos/IMG_4.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_4.JPG",
+            "thumbnail": "photos/resized_images/IMG_4.jpg"
         },
         {
-            "image": "photos/IMG_5.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_5.JPG",
+            "thumbnail": "photos/resized_images/IMG_5.jpg"
         },
         {
-            "image": "photos/IMG_6.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_6.JPG",
+            "thumbnail": "photos/resized_images/IMG_6.jpg"
         },
         {
-            "image": "photos/IMG_7.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_7.JPG",
+            "thumbnail": "photos/resized_images/IMG_7.jpg"
         },
         {
-            "image": "photos/IMG_8.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_8.JPG",
+            "thumbnail": "photos/resized_images/IMG_8.jpg"
         },
         {
-            "image": "photos/IMG_9.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_9.JPG",
+            "thumbnail": "photos/resized_images/IMG_9.jpg"
         },
         {
-            "image": "photos/IMG_10.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_10.JPG",
+            "thumbnail": "photos/resized_images/IMG_10.jpg"
         },
         {
-            "image": "photos/IMG_11.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_11.JPG",
+            "thumbnail": "photos/resized_images/IMG_11.jpg"
         },
         {
-            "image": "photos/IMG_12.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_12.JPG",
+            "thumbnail": "photos/resized_images/IMG_12.jpg"
         },
         {
-            "image": "photos/IMG_13.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_13.JPG",
+            "thumbnail": "photos/resized_images/IMG_13.jpg"
         },
         {
-            "image": "photos/IMG_14.JPG",
-            "id": "John Smith"
+            "original": "photos/IMG_14.JPG",
+            "thumbnail": "photos/resized_images/IMG_14.jpg"
         }
     ]
 }
