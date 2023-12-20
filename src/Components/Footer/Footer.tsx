@@ -1,12 +1,9 @@
-import React from 'react'
-
-function Header() {
+function Footer() {
   return (
-    <div>
-      <div>Instagram</div>
-      <div>Linkedin</div>
+    <div style={{textAlign: "center"}}>
+      <p style={{ fontSize:"12px",color:"white"}}>All rights reserved to Sami Safatli - 2023</p>
     </div>
   )
 }
 
-export default Header
+export default Footer
