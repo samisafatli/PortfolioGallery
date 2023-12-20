@@ -1,0 +1,37 @@
+h1{
+  text-align: center;
+  font-size: 6rem;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 20px;
+}
+
+.imageSection {
+  flex: 1;
+  width: 25%;
+}
+
+.actorImage {
+  object-fit: cover;
+  width: 100%;
+}
+
+.textSection {
+  flex: 1;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+  }
+}
