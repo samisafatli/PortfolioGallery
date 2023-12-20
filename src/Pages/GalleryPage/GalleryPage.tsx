@@ -1,9 +1,10 @@
+import Gallery from "../../Components/Gallery/Gallery"
+import './GalleryPage.css'
+
 function GalleryPage() {
   return (
-    <div>
-      <div className="container">
-        <h1>Gallery Page</h1>
-      </div> 
+    <div className="gallery_page_container">
+      <Gallery></Gallery>
     </div>
   )
 }

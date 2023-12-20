@@ -1,19 +1,17 @@
-import React from 'react';
+import "react-image-gallery/styles/css/image-gallery.css";
+import './Gallery.css'
+import ImageGallery from "react-image-gallery";
+
 import data from './GalleryData.json';
 
 function Gallery() {
     return (
         <div>
-            {data.pictures.map((picture, index) => (
-                <div>
-                    <img
-                        key={index}
-                        src={picture.image}
-                        alt={`Gallery Image ${index + 1}`}
-                        style={{ width: '600px' }}
-                    />
-                </div>
-            ))}
+            <ImageGallery
+                showBullets={true}
+                showPlayButton={false}
+                thumbnailPosition={'bottom'}
+                items={data.pictures} />
         </div>
     );
 }
