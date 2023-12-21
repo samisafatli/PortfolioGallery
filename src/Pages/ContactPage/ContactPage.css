@@ -2,54 +2,48 @@
 .contact_page_container {
     background-image: url('../public/photos/background_IMG_2253.JPG');
     background-size: cover; 
-    background-position: center;
-    height: 100vh; 
-    width: 100%;
+    background-position: right;
+    height: 90vh; 
   }
-/* Style the contact page container */
+
 .contact-page {
     text-align: center;
     padding: 20px;
   }
   
-  /* Style the form title */
   .contact-page h1 {
     font-size: 4rem;
-    color: white; /* Choose an appropriate text color */
+    color: white; 
   }
   
-  /* Style the form */
   form {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #0e335732; /* Choose a background color */
+    background-color: #0e335732; 
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
   }
   
-  /* Style form labels */
   label {
     display: block;
     margin-bottom: 8px;
-    color: white; /* Choose a label text color */
+    color: white; 
   }
   
-  /* Style form inputs and textarea */
   input[type="text"],
   input[type="email"],
   textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc; /* Add a border */
+    border: 1px solid #ccc; 
     border-radius: 4px;
     font-size: 1.6rem;
   }
   
-  /* Style the submit button */
   button[type="submit"] {
-    background-color: #007bff; /* Choose a button background color */
+    background-color: #007bff; 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -59,21 +53,18 @@
     transition: background-color 0.3s ease;
   }
   
-  /* Hover effect for the submit button */
   button[type="submit"]:hover {
-    background-color: white; /* Choose a darker background color */
+    background-color: white; 
     color: #007bff;
   }
   
-  /* Style the confirmation message */
   .confirmation-message {
-    color: green; /* Choose a color for success messages */
+    color: green; 
     font-weight: bold;
   }
   
-  /* Add media queries for responsiveness if needed */
   @media screen and (max-width: 768px) {
-    /* Adjust styles for smaller screens */
+
     form {
       max-width: 90%;
     }
