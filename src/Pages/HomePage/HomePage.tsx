@@ -12,7 +12,7 @@ export const HomePage = () => {
           <br/><br/>          
           <p>Olá! Sou ator apaixonado pelos estudos das artes cênicas.</p>
           <br/>
-          <p>Sou formado no CCPAC, escola profissionalizante, além de ter feito cursos livres de Máscara, movimentação e improvisação e interpretação.</p>
+          <p>Sou formado no CCPAC, escola profissionalizante, além de ter feito cursos livres de máscara, movimentação, improvisação e interpretação.</p>
           <br/>
           <p>Seja bem vindo à minha página, espero que eu seja o perfil que você precisa!</p>
         </div>

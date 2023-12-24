@@ -6,7 +6,7 @@ import data from './GalleryData.json';
 
 export const Gallery = () => {
     return (
-        <div>
+        <div className="gallery_container">
             <ImageGallery
                 showBullets={true}
                 showPlayButton={false}
