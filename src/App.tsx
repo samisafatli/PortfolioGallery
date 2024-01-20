@@ -14,7 +14,7 @@ function App() {
       <div className="main-container">
         <div className="content-grow">
           <Routes>
-            <Route path='/' element={<HomePage />}></Route>
+            <Route path='/PortfolioGallery' element={<HomePage />}></Route>
             <Route path='/Gallery' element={<GalleryPage />}></Route>
             <Route path='/Contact' element={<ContactPage />}></Route>
           </Routes>

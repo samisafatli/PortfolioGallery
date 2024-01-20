@@ -12,12 +12,12 @@ export const Header = () => {
 
   return (
     <nav className="navbar">
-      <Link className="nav__link" to='/'>
+      <Link className="nav__link" to='/PortfolioGallery'>
         <TheaterComedyIcon style={{ color: "white", fontSize: "45px" }} />
       </Link>
       <ul className={`nav__menu ${isNavExpanded ? "nav__active" : ""}`}>
         <li className="nav__item">
-          <Link onClick={navToggle} className="nav__link" to='/'>Home</Link>
+          <Link onClick={navToggle} className="nav__link" to='/PortfolioGallery'>Home</Link>
         </li>
         <li className="nav__item">
           <Link onClick={navToggle} className="nav__link" to='/Gallery'>Gallery</Link>

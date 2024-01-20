@@ -5,7 +5,7 @@ export const HomePage = () => {
     <div className="home_page_container">
       <div className="container">
         <div className="imageSection">
-          <img src="../public/photos/background_IMG_2253.JPG" alt="Ator" className="actorImage" />
+          <img src="./assets/photos/background_IMG_2253.JPG" alt="Ator" className="actorImage" />
         </div>
         <div className="textSection">
           <h1>Sami Saftli</h1>
